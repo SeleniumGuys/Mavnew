@@ -9,19 +9,19 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage extends TestBase {
 
     //Page Factory or Object Repository
-    @FindBy(name = "username")
+    @FindBy(name ="username")
     WebElement username;
 
-    @FindBy(name = "password")
+    @FindBy(name ="password")
     WebElement password;
 
-    @FindBy(className = "oxd-button oxd-button--medium oxd-button--main orangehrm-login-button")
+    @FindBy(xpath = "//button[text() =  ' Login ']")
     WebElement loginButton;
 
-    @FindBy(className = "oxd-text oxd-text--p orangehrm-login-forgot-header")
-    WebElement forgotPassword;
+//    @FindBy(className ="oxd-text oxd-text--p orangehrm-login-forgot-header")
+//    WebElement forgotPassword;
 
-    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div/div[1]/div/div[1]/img")
+    @FindBy(xpath ="//img[@alt = 'company-branding']")
     WebElement companyLogo;
 
 

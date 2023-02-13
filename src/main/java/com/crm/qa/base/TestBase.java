@@ -57,8 +57,8 @@ public class TestBase {
         driver.manage().window().maximize();
 
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().pageLoadTimeout(Testutil.PAGE_LOAD_TIMEOUT, TimeUnit.MILLISECONDS);
-        driver.manage().timeouts().implicitlyWait(Testutil.IMPLICIT_WAIT, TimeUnit.MILLISECONDS);
+        driver.manage().timeouts().pageLoadTimeout(Testutil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Testutil.IMPLICIT_WAIT, TimeUnit.SECONDS);
          // these time is coming from utils class, which is defined for this purpose.
 
         //driver.get("https://opensource-demo.orangehrmlive.com/");
