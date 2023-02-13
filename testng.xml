@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/singh/IdeaProjects/Mavnew/src/test/java/com/crm/qa/testcases/LoginTestCase.java"><classes><class name="com.crm.qa.testcases.LoginTestCase"><methods><include name="loginPageTitleTest"/><include name="logoImgTest"/><include name="loginCheck"/></methods></class></classes></test></suite>
